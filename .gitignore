@@ -1,0 +1,17 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Sensitive files
+aws-key
+aws-key.pub
+*.pem
+
+# Variables
+*.tfvars
+
+# IDE
+.vscode/
+.idea/
